@@ -36,22 +36,23 @@ header a {
     text-decoration: none;
     color: #fce138
 }
-ul {
-    list-style-type: none;
-}
 
 header nav {
     margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
-    margin: 0 20px;
+    margin: 0 30px;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 1.55vw;
 }
 
 footer {
