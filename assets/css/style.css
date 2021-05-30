@@ -59,17 +59,18 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h2 {
-    display: inline;
     color:#024e76;
     font-size: 30 px;
     margin: 0;
 }
 
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
@@ -81,32 +82,28 @@ footer a {
 /* Hero Style Start */
 .hero {
     background-image: url("../Images/hero-bg.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 /* Hero Style End */
 
-.hero-text {
+.hero-cta {
     text-align: right;
-    font-style: bold;
-    width: 500px;
-    padding:20px;
-    position: absolute;
-    bottom: 240px;
-    left: 140px;
-}
-.hero-text p {
-    color: white;
-    font-size: 16px;
-   
+    width: 35%;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
 }
 
-.hero-text h2 {
+
+.hero-cta h2 {
     color:#fce138;
     font-style: italic;
-    font-size: 48px;
+    font-size: 55px;
 }
 
 
@@ -114,13 +111,11 @@ footer a {
 .hero-form {
     background-color: #fce138;
     font_color: #024e76;
-    width: 500px;
     padding:20px;
     border: solid 3px #024e76;
-    color:#024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;   
+    color:#024e76;  
+    width: 40%;
+    margin: 3.5%;
 }
 /* Hero Style End */
 
