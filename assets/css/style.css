@@ -86,6 +86,28 @@ footer a {
 }
 /* Hero Style End */
 
+.hero-text {
+    text-align: right;
+    font-style: bold;
+    width: 500px;
+    padding:20px;
+    position: absolute;
+    bottom: 240px;
+    left: 140px;
+}
+.hero-text p {
+    color: white;
+    font-size: 16px;
+   
+}
+
+.hero-text h2 {
+    color:#fce138;
+    font-style: italic;
+    font-size: 48px;
+}
+
+
 /* Hero Style Start */
 .hero-form {
     background-color: #fce138;
