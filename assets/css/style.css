@@ -109,7 +109,7 @@
   
   /* HERO STYLES START */
   .hero {
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('../Images/hero-bg.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
